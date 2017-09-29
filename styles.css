@@ -1,0 +1,36 @@
+h1 { 
+	color: red;
+	font-size: 250%;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 150%;
+	font-style: italic;
+}
+
+body {
+	background: white;
+	color: black;
+	font-size: 18pt;
+	font-family: 'Oswald', sans-serif;
+}
+
+nav li { 
+		display: inline-block;
+		border: 2px solid black; 
+		background: yellow;
+		padding: 10px;
+		margin: 20px;
+}
+
+a { color: darkred;
+  	text-decoration: none }
+  	a:hover { color: red }
+  	
+.title { font-weight: bold;
+         text-decoration: underline; }
+         
+.special { color: maroon }
+
+table, th, td {border: 1px solid black; border-collapse: collapse }
