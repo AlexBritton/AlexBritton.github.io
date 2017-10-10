@@ -21,13 +21,13 @@ body {
 nav li { 
 		display: inline-block;
 		border: 4px solid maroon; 
-		background: black;
+		background: yellow;
 		padding: 5px;
 		margin: 50px;
 }
 
 .special {color: yellow;}
-.extraspecial {color: white;}
+.extraspecial {color: yellow;}
 
 a { color: red;
   	text-decoration: none }
