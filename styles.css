@@ -1,5 +1,5 @@
 h1 { 
-	color: red;
+	color: orange;
 	font-size: 250%;
 	font-weight: bold;
 }
@@ -10,7 +10,9 @@ h2 {
 }
 
 body {
-	background: white;
+	background-image: url("background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 	color: black;
 	font-size: 18pt;
 	font-family: 'Oswald', sans-serif;
@@ -18,19 +20,17 @@ body {
 
 nav li { 
 		display: inline-block;
-		border: 2px solid black; 
+		border: 4px solid maroon; 
 		background: yellow;
-		padding: 10px;
-		margin: 20px;
+		padding: 5px;
+		margin: 50px;
 }
 
-a { color: darkred;
-  	text-decoration: none }
-  	a:hover { color: red }
-  	
-.title { font-weight: bold;
-         text-decoration: underline; }
-         
-.special { color: maroon }
+.special {color: yellow;}
+.extraspecial {color: white;}
 
-table, th, td {border: 1px solid black; border-collapse: collapse }
+a { color: red;
+  	text-decoration: none }
+  	a:hover { color: magenta }
+
+table, th, td {border: 5px solid maroon; border-collapse: collapse }
